@@ -1,0 +1,434 @@
+{
+  "name":"Json Language Feeder",
+  "regions":[
+              {
+                "code":"en-GB",
+                "url":"https://s3-eu-west-1.amazonaws.com/avs-experience-frontend-v2-dev/index.html",
+                "rooms":[
+                  {
+                    "name":"Kitchen",
+                    "utterances":[
+                      {
+                        "Key": "Roomba",
+                        "Value": "Alexa, ask Roomba to start cleaning"
+                      },
+                      {
+                        "Key": "LightsPink",
+                        "Value": "Alexa, change the lights to pink"
+                      },
+                      {
+                        "Key": "LightsGreen",
+                        "Value": "Alexa, change the lights to green"
+                      },
+                      {
+                        "Key": "Nursery",
+                        "Value": "Alexa, show the nursery camera"
+                      },
+                      {
+                        "Key": "Radio:",
+                        "Value": "AUK - Alexa, play Radio One"
+                      },
+                      {
+                        "Key": "Timer",
+                        "Valiue": "Alexa, set an egg timer for 5 minutes"
+                      },
+                      {
+                        "Key":"Shopping",
+                        "Value": "Alexa, add eggs to my shopping list"
+
+                      },
+                      {
+                        "Key":"measures",
+                        "Value": "How many grams in 6 ounces"
+
+                      }
+                    ]
+                  },
+                  {
+                    "name":"Living Room",
+                    "utterances":[
+                      {
+                        "Key":"LightsOn",
+                        "Value": "Alexa, turn on the main lights"
+
+                      },
+                      {
+                        "Key":"LightsOff",
+                        "Value": "Alexa, turn off the main lights"
+
+                      },
+                      {
+                        "Key":"Fact",
+                        "Value": "Alexa, Tell me a fun Fact"
+
+                      },
+                      {
+                        "Key":"Weather",
+                        "Value": "Alexa, What's the weather tomorrow"
+
+                      },
+                      {
+                        "Key":"Music",
+                        "Value": "Alexa, Play some relaxing music"
+
+                      },
+                      {
+                        "Key":"Spell",
+                        "Value": "Alexa, how do you spell hippopotamus"
+
+                      },
+                      {
+                        "Key":"Thermostat",
+                        "Value": "Alexa, set the thermostat to 22 degrees"
+
+                      }
+
+                    ]
+                  },
+                  {
+                    "name":"Bedroom",
+                    "utterances":[
+                      {
+                        "Key":"StartMorning",
+                        "Value":"Alexa, Start my day"
+                      },
+                      {
+                        "Key":"Reminder",
+                        "Value":"Alexa, remind me to call dad at 8pm tonight"
+                      },
+                      {
+                        "Key":"Phone",
+                        "Value":"Alexa, find my phone"
+                      },
+                      {
+                        "Key":"Audible",
+                        "Value":"Alexa, read Sherlock Holmes"
+                      },
+                      {
+                        "Key":"Alarm",
+                        "Value":"Alexa, wake me at 8 tomorrow morning"
+                      },
+                      {
+                        "Key":"SleepSounds",
+                        "Value":"Alexa, help me get to sleep"
+                      }
+                    ]
+                  }
+
+                ],
+                "Copy": [
+                  {
+                    "Key": "TryEchoShow",
+                    "Value": "Try out the Echo Show"
+                  },
+                  {
+                    "Key": "BRTrytitle",
+                    "Value": "Try using"
+                  },
+                  {
+                    "Key": "DollshouseCommon1",
+                    "Value": "Ask Alexa to:"
+                  },
+                  {
+                    "Key": "DollshouseCommon2",
+                    "Value": "and much more..."
+                  },
+                  {
+                    "Key": "TryEcho",
+                    "Value": "Try out the Echo"
+                  },
+                  {
+                    "Key": "dollsHouseLRbutton",
+                    "Value": "Go to the living room"
+                  },
+                  {
+                    "Key": "dollsHouseKbutton",
+                    "Value": "Go to the kitchen"
+                  },
+                  {
+                    "Key": "dollsHouseBRbutton",
+                    "Value": "Go to the bedroom"
+                  },
+                  {
+                    "Key": "dollsHouseBRUtter1",
+                    "Value": "Start your day"
+                  },
+                  {
+                    "Key": "dollsHouseBRUtter2",
+                    "Value": "Read you a book"
+                  },
+                  {
+                    "Key": "dollsHouseBRUtter3",
+                    "Value": "Help you sleep"
+                  },
+                  {
+                    "Key": "dollsHouseLRUtter1",
+                    "Value": "Turn up the heating"
+                  },
+                  {
+                    "Key": "dollsHouseLRUtter2",
+                    "Value": "Play some music"
+                  },
+                  {
+                    "Key": "dollsHouseLRUtter3",
+                    "Value": "Turn on the lights"
+                  },
+                  {
+                    "Key": "dollsHouseKUtter1",
+                    "Value": "Manage your shopping"
+                  },
+                  {
+                    "Key": "dollsHouseKUtter2",
+                    "Value": "Set a timer"
+                  },
+                  {
+                    "Key": "dollsHouseKUtter3",
+                    "Value": "Clean your floor"
+                  },
+                  {
+                    "Key": "MicEnablementHeader",
+                    "Value": "Please enable your Microphone and turn up your sound"
+                  },
+                  {
+                    "Key": "MicEnablementText",
+                    "Value": "To get the full Amazon Echo experience you will need to allow microphone access. Make sure your sound is turned up so you can hear the responses."
+                  },
+                  {
+                    "Key": "DisclaimerHeader",
+                    "Value": "Disclaimer"
+                  },
+                  {
+                    "Key": "DisclaimerTextShort",
+                    "Value": "This is a virtual demo to showcase the magic of Amazon Echo devices. The demo simulates some of its functions"
+                  },
+                  {
+                    "Key": "DisclaimerTextFull",
+                    "Value": "This is a virtual demo to showcase the magic of Amazon Echo devices. The demo simulates some of its functions and possibilites. Any limitations and quality depends on parameters Amazon cannot control like the microphone, background noise, internet connection etc. Actual experiences may require subscriptions and compatible devices. Alexa calling and messaging are available between Echo devices and the Alexa app."
+                  },
+                  {
+                    "Key": "PrivacyHeader",
+                    "Value": "We Care about your Privacy"
+                  },
+                  {
+                    "Key": "PrivacyText",
+                    "Value": "We will only process your data as required to make the demo work. Your Data will be deleted and your microphone will be disabled again once you end the session, e.g. by closing the browesr window."
+                  },
+                  {
+                    "Key": "DisclaimerbuttonText",
+                    "Value": "Read more..."
+                  }
+                  ]
+                  },
+             {
+              "code": "de-DE",
+              "url": "https://s3-eu-west-1.amazonaws.com/avs-experience-frontend-v2-dev/index.html",
+              "rooms": [
+                {
+                  "name": "Kitchen",
+                  "utterances": [
+                    {
+                      "Key": "Roomba",
+                      "Value": "Alexa, Reinige mein Zimmer"
+                    },
+                    {
+                      "Key": "LightsPink",
+                      "Value": "Alexa, ändere das Wohnzimmerlicht zu lila"
+                    },
+                    {
+                      "Key": "LightsGreen",
+                      "Value": "Alexa, ändere das Wohnzimmerlicht zu grün"
+                    },
+                    {
+                      "Key": "Nursery",
+                      "Value": "Alexa, zeige mir die Baby Kamera"
+                    },
+                    {
+                      "Key": "Radio:",
+                      "Value": "Alexa, spiel Deutschlandfunk Kultu"
+                    },
+                    {
+                      "Key": "Timer",
+                      "Value": "Alexa, stell einen Eier-Timer für 5 Minuten"
+                    },
+                    {
+                      "Key": "Shopping",
+                      "Value": "Alexa, füg Eier zu meiner Einkaufsliste hinzu"
+                    },
+                    {
+                      "Key": "measures",
+                      "Value": "Alexa, wie viel Zentimeter sind 10 Zoll"
+                    }
+                  ]
+                },
+                {
+                  "name": "Living Room",
+                  "utterances": [
+                    {
+                      "Key": "LightsOn",
+                      "Value": "Alexa, schalte das Wohnzimmerlicht an"
+                    },
+                    {
+                      "Key": "LightsOff",
+                      "Value": "Alexa, mach die Lichter aus"
+                    },
+                    {
+                      "Key": "Fact",
+                      "Value": "Alexa, erzähl mir einen Fun Fact"
+                    },
+                    {
+                      "Key": "Weather",
+                      "Value": "Alexa, wie wird das Wetter morgen?"
+                    },
+                    {
+                      "Key": "Music",
+                      "Value": "Alexa, spiel Musik zum Entspannen"
+                    },
+                    {
+                      "Key": "Spell",
+                      "Value": "Alexa, wie schreibt man 'Rhythmus'"
+                    },
+                    {
+                      "Key": "Thermostat",
+                      "Value": "Alexa, stelle die Temperatur im Wohnzimmer auf 22 Grad"
+                    }
+
+
+                  ]
+                },
+                {
+                  "name": "Bedroom",
+                  "utterances": [
+                    {
+                      "Key":"StartMorning",
+                      "Value":"Alexa, Starte meinen Tag!"
+                    },
+                    {
+                      "Key":"Reminder",
+                      "Value":"Alexa, erinnere mich um 8 Uhr daran, Papa anzurufen"
+                    },
+                    {
+                      "Key":"Phone",
+                      "Value":"Alexa, finde mein Telefon"
+                    },
+                    {
+                      "Key":"Audible",
+                      "Value":"Alexa, read Sherlock Holmes"
+                    },
+                    {
+                      "Key":"Alarm",
+                      "Value":"Alexa, weg mich morgen früh um 8 Uhr"
+                    },
+                    {
+                      "Key":"SleepSounds",
+                      "Value":"Alexa, hilf mir beim Einschlafen"
+                    }
+                  ]
+                }
+              ],
+              "Copy": [
+                {
+                  "Key": "TryEchoShow",
+                  "Value": "Try out the Echo Show"
+                },
+                {
+                  "Key": "BRTrytitle",
+                  "Value": "Try using"
+                },
+                {
+                  "Key": "DollshouseCommon1",
+                  "Value": "Ask Alexa to:"
+                },
+                {
+                  "Key": "DollshouseCommon2",
+                  "Value": "and much more..."
+                },
+                {
+                  "Key": "TryEcho",
+                  "Value": "Try out the Echo"
+                },
+                {
+                  "Key": "dollsHouseLRbutton",
+                  "Value": "Go to the living room"
+                },
+                {
+                  "Key": "dollsHouseKbutton",
+                  "Value": "Go to the kitchen"
+                },
+                {
+                  "Key": "dollsHouseBRbutton",
+                  "Value": "Go to the bedroom"
+                },
+                {
+                  "Key": "dollsHouseBRUtter1",
+                  "Value": "Start your day"
+                },
+                {
+                  "Key": "dollsHouseBRUtter2",
+                  "Value": "Read you a book"
+                },
+                {
+                  "Key": "dollsHouseBRUtter3",
+                  "Value": "Help you sleep"
+                },
+                {
+                  "Key": "dollsHouseLRUtter1",
+                  "Value": "Turn up the heating"
+                },
+                {
+                  "Key": "dollsHouseLRUtter2",
+                  "Value": "Play some music"
+                },
+                {
+                  "Key": "dollsHouseLRUtter3",
+                  "Value": "Turn on the lights"
+                },
+                {
+                  "Key": "dollsHouseKUtter1",
+                  "Value": "Manage your shopping"
+                },
+                {
+                  "Key": "dollsHouseKUtter2",
+                  "Value": "Set a timer"
+                },
+                {
+                  "Key": "dollsHouseKUtter3",
+                  "Value": "Clean your floor"
+                },
+                {
+                  "Key": "MicEnablementHeader",
+                  "Value": "Please enable your Microphone and turn up your sound"
+                },
+                {
+                  "Key": "MicEnablementText",
+                  "Value": "To get the full Amazon Echo experience you will need to allow microphone access. Make sure your sound is turned up so you can hear the responses."
+                },
+                {
+                  "Key": "DisclaimerHeader",
+                  "Value": "Disclaimer"
+                },
+                {
+                  "Key": "DisclaimerTextShort",
+                  "Value": "This is a virtual demo to showcase the magic of Amazon Echo devices. The demo simulates some of its functions..."
+                },
+                {
+                  "Key": "DisclaimerTextFull",
+                  "Value": "This is a virtual demo to showcase the magic of Amazon Echo devices. The demo simulates some of its functions and possibilites. Any limitations and quality depends on parameters Amazon cannot control like the microphone, background noise, internet connection etc. Actual experiences may require subscriptions and compatible devices. Alexa calling and messaging are available between Echo devices and the Alexa app."
+                },
+                {
+                  "Key": "PrivacyHeader",
+                  "Value": "We Care about your Privacy"
+                },
+                {
+                  "Key": "PrivacyText",
+                  "Value": "To get the full Amazon Echo experience you will need to allow microphone access. Make sure your sound is turned up so you can hear the responses."
+                },
+                {
+                  "Key": "DisclaimerbuttonText",
+                  "Value": "Read more..."
+                }
+
+              ]
+            }
+         ]
+}
+

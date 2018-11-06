@@ -1,0 +1,191 @@
+{
+  "name":"Json Language Feeder",
+  "regions":[
+    {
+      "code":"en-GB",
+      "url":"http://www.amazon.co.uk",
+      "rooms":[
+        {
+          "name":"Kitchen",
+          "utterances":[
+            {
+              "Key": "Roomba",
+              "Value": "Alexa, Clean my room"
+            },
+            {
+              "Key": "Roomba",
+              "Value": "Alexa, Clean my room"
+            },
+            {
+              "Key": "LightsPink",
+              "Value": "Alexa, change the lights to pink"
+            },
+            {
+              "Key": "LightsGreen",
+              "Value": "Alexa, change the lights to green"
+            },
+            {
+              "Key": "Nursery",
+              "Value": "Alexa, show the nursery camera"
+            },
+            {
+              "Key": "Radio:",
+              "Value": "Alexa, play XXX (radio station TBC)"
+            },
+            {
+              "Key": "Timer",
+              "Valiue": "Alexa, set an egg timer for 5 minutes"
+            },
+            {
+              "Key":"Shopping",
+              "Value": "Alexa, add eggs to my shopping list"
+
+            }
+          ]
+        },
+        {
+          "name":"Lounge",
+          "utterances":[
+            {
+              "Key":"LightsOn",
+              "Value": "Alexa, Turn On the Lights"
+
+            },
+            {
+              "Key":"LightsOff",
+              "Value": "Alexa Turn Off the Lights"
+
+            },
+            {
+              "Key":"Fact",
+              "Value": "Alexa, Tell me a fun Fact"
+
+            },
+            {
+              "Key":"Weather",
+              "Value": "Alexa, Whats the Weather for Tomorrow"
+
+            },
+            {
+              "Key":"Music",
+              "Value": "Alexa, Play me something relaxing"
+
+            },
+            {
+              "Key":"Spell",
+              "Value": "Alexa, Spell Hippopotamus"
+
+            }
+
+          ]
+        },
+        {
+          "name":"Bedroom",
+          "utterances":[
+            {
+              "Key":"StartMorning",
+              "Value":"Alexa -  Bedroom - Morning - en"
+
+            },
+            {
+              "Key":"Music",
+              "Value":"Alexa - Bedroom - Music - en"
+            }
+
+          ]
+        }
+
+      ]
+    },
+    {
+      "code":"de-DE",
+      "url":"http://www.amazon.de",
+      "rooms":[
+        {
+          "name": "Kitchen",
+          "utterances": [
+            {
+              "Key": "Roomba",
+              "Value": "Alexa, Reinige mein Zimmer"
+            },
+            {
+              "Key": "LightsPink",
+              "Value": "Alexa, ändere die Lichter in Pink"
+            },
+            {
+              "Key": "LightsGreen",
+              "Value": "Alexa, ändere die Lichter auf grün"
+            },
+            {
+              "Key": "Nursery",
+              "Value": "Alexa, zeige die Kinderzimmerkamera"
+            },
+            {
+              "Key": "Radio:",
+              "Value": "Alexa, <GERMAN RADIO>"
+            },
+            {
+              "Key": "Timer",
+              "Value": "Alexa, setze eine Eieruhr für 5 Minuten"
+            },
+            {
+              "Key": "Shopping",
+              "Value": "Alexa, füge Eier zu meiner Einkaufsliste hinzu"
+            }
+          ]
+        },
+
+        {
+              "name":"Lounge",
+              "utterances":[
+                {
+                  "Key":"LightsOn",
+                  "Value": "Alexa, LightsOn - De"
+
+                },
+                {
+                  "Key":"LightsOff",
+                  "Value": "Alexa, LightsOff - De "
+
+                },
+                {
+                  "Key":"Fact",
+                  "Value": "Alexa, Fact - De"
+
+                },
+                {
+                  "Key":"Weather",
+                  "Value": "Alexa, Weather - De"
+
+                },
+                {
+                  "Key":"Music",
+                  "Value": "Alexa, Musc -  De"
+
+                },
+                {
+                  "Key":"Spell",
+                  "Value": "Alexa, Spelling - De"
+
+                }
+              ]
+            },
+            {
+              "name":"Lounge",
+              "utterances":[
+                {
+                  "Key":"StartMorning",
+                  "Value":"Alexa, Bedroom - Morning - De"
+
+                },
+                {
+                  "Key":"Music",
+                  "Value":"Alexa, Bedroom - Music - De"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+
